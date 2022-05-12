@@ -45,7 +45,8 @@
 @font-face {
   font-family: 'Noto Sans TC';
   font-style: normal;
-  font-weight: 900;
+  /* default font-weight is 900， adjust for 'JetBrains Mono' */
+  font-weight: 800;
   font-display: swap;
   src: url('~assets/fonts/Noto_Sans_TC/NotoSansTC-Black.otf') format('truetype');
 }
