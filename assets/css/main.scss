@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .v-toolbar {
@@ -23,19 +23,47 @@ h1 {
 }
 
 .v-parallax__image {
-  width: 100%;
   bottom: 95px !important;
 }
 
 .parallax-1 {
-  .v-parallax__image {
-    width: auto;
-    height: 100%;
+  text-align: center;
+
+  .logo {
+    height: 180px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-weight: 800;
+  }
+
+  hr {
+    margin: 10px 0;
   }
 }
 
 .view-height {
   height: 100vh !important;
+}
+
+@media (orientation: landscape) {
+  .parallax-1 {
+    .v-parallax__image {
+      left: 85% !important;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media (orientation: portrait) {
+  .parallax-1 {
+    .v-parallax__image {
+      width: auto;
+      height: 100%;
+    }
+  }
 }
 
 // xs
