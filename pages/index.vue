@@ -40,7 +40,32 @@
       </v-row>
       <v-row />
     </v-parallax>
-    <div>0/1整合 無限可能</div>
+    <v-parallax :src="require('~/assets/images/black_white-smoke_bg.jpg')">
+      <v-spacer />
+      <v-row>
+        <v-col md="6" sm="12">
+          <div class="padding-30">
+            <h1>ZERO mix ONE</h1>
+            <h2>可能性 x 創造力</h2>
+            <div>
+              = We make dreams come true.
+              <br />
+              <br />
+              能創工作室(Mix01)內容內容內容內容內容內容內容內容內容內容內容內容內容，
+              內容內容內容內容內容內容內容內容內，容內容內容內容內容
+              內容內容內容內容內容內容內容內容內容內容內容內容內容
+              內容內容內容內容內容內容內容內容內容內容，內容內容內容
+              內容內容內容內容內容內容內容內容內容內容內容內容內容。
+              <br />
+              <br />
+              內容內容內容
+              內容內容內容內容內容內容內容內容內容內容內容內容內容。
+            </div>
+          </div>
+        </v-col>
+      </v-row>
+      <v-spacer />
+    </v-parallax>
   </div>
 </template>
 

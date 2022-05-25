@@ -42,6 +42,14 @@ body {
   }
 }
 
+.display-block {
+  display: block;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
 //size
 .view-height-100 {
   height: 100vh !important;
@@ -107,8 +115,6 @@ body {
 @media (orientation: landscape) {
   .parallax-1 {
     .v-parallax__image {
-      // Move the background pattern from the center to the right.
-      left: 85% !important;
       width: 100%;
       height: auto;
     }
@@ -121,6 +127,7 @@ body {
     .v-parallax__image {
       width: auto;
       height: 100%;
+      left: -85% !important;
     }
   }
 }
