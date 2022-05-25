@@ -19,6 +19,9 @@
           <v-row justify="center">
             <h4>數位設計 / 全端開發</h4>
           </v-row>
+          <v-row justify="center">
+            <FontAwesomeIcon icon="sort-down" />
+          </v-row>
         </v-col>
         <v-spacer />
       </v-row>
