@@ -8,10 +8,19 @@
         <v-spacer />
         <v-col cols="6">
           <v-row justify="center">
-            <img class="logo" :src="require('~/assets/images/logo.png')" />
+            <div class="position-relative">
+              <img
+                class="logo position-relative position-top-left"
+                :src="require('~/assets/images/logo.png')"
+              />
+              <img
+                class="logo position-absolute position-top-left animate-wink"
+                :src="require('~/assets/images/keyhole.png')"
+              />
+            </div>
           </v-row>
           <v-row justify="center">
-            <h1>MIX01 STUDIO</h1>
+            <h1>Mix01 StudiO</h1>
           </v-row>
           <v-row>
             <v-divider />
@@ -20,13 +29,18 @@
             <h4>數位設計 / 全端開發</h4>
           </v-row>
           <v-row justify="center">
-            <FontAwesomeIcon icon="sort-down" />
+            <div class="animate-float-box_large-button">
+              <v-btn icon large plain class="position-absolute animate-float">
+                <FontAwesomeIcon icon="sort-down" />
+              </v-btn>
+            </div>
           </v-row>
         </v-col>
         <v-spacer />
       </v-row>
       <v-row />
     </v-parallax>
+    <div>0/1整合 無限可能</div>
   </div>
 </template>
 
