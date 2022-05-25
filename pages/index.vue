@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-parallax
-      class="parallax-1 view-height"
+      class="parallax-1 view-height-100"
       :src="require('~/assets/images/splash_ink_bg_1.png')"
     >
       <v-row align="center" justify="center" style="color: black">
