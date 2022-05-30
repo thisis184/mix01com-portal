@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar dark app dense collapse>
+    <v-app-bar dark dense collapse fixed>
       <div>{{ title }}</div>
       <v-spacer />
       <v-btn icon @click.stop="drawer = !drawer">
