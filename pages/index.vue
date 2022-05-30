@@ -30,7 +30,13 @@
           </v-row>
           <v-row justify="center">
             <div class="animate-float-box_large-button">
-              <v-btn icon large plain class="position-absolute animate-float">
+              <v-btn
+                icon
+                large
+                plain
+                class="position-absolute animate-float"
+                @click="$vuetify.goTo('#parallax-2', options)"
+              >
                 <FontAwesomeIcon icon="sort-down" />
               </v-btn>
             </div>
@@ -40,7 +46,11 @@
       </v-row>
       <v-row />
     </v-parallax>
-    <v-parallax :src="require('~/assets/images/black_white-smoke_bg.jpg')">
+    <v-parallax
+      id="parallax-2"
+      class="parallax-2"
+      :src="require('~/assets/images/black_white-smoke_bg.jpg')"
+    >
       <v-spacer />
       <v-row>
         <v-col md="6" sm="12">
@@ -72,5 +82,14 @@
 <script>
 export default {
   name: 'IndexPage',
+  data() {
+    return {
+      goToOptions: {
+        duration: 300,
+        offset: 0,
+        easing: 'easeInOutCubic',
+      },
+    }
+  },
 }
 </script>
