@@ -44,12 +44,11 @@
         </v-col>
         <v-spacer />
       </v-row>
-      <v-row />
     </v-parallax>
     <v-parallax
       id="parallax-2"
       class="parallax-2"
-      :src="require('~/assets/images/black_white-smoke_bg.jpg')"
+      :src="require('~/assets/images/smoke_black_bg.png')"
     >
       <v-spacer />
       <v-row>
@@ -75,6 +74,12 @@
         </v-col>
       </v-row>
       <v-spacer />
+    </v-parallax>
+    <v-parallax
+      id="parallax-3"
+      class="parallax-3"
+      :src="require('~/assets/images/smoke_white_rotate_bg.png')"
+    >
     </v-parallax>
   </div>
 </template>

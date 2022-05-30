@@ -43,6 +43,24 @@ body {
 
   hr {
     margin: 10px 0;
+    border-color: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+
+.parallax-2 {
+  background: $sub-color;
+  .v-parallax__image-container {
+    opacity: 0.4;
+  }
+}
+
+.parallax-3 {
+  background: $main-color;
+  .v-parallax__image-container {
+    opacity: 0.2;
+    .v-parallax__image {
+      bottom: -220px !important;
+    }
   }
 }
 
