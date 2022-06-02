@@ -44,6 +44,7 @@
         </v-col>
         <v-spacer />
       </v-row>
+      <v-row class="parallax-1-bottom-space" />
     </v-parallax>
     <v-parallax
       id="parallax-2"

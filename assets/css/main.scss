@@ -144,6 +144,10 @@ body {
       width: 100%;
       height: auto;
     }
+
+    .parallax-1-bottom-space {
+      display: none;
+    }
   }
 }
 
@@ -154,6 +158,10 @@ body {
       width: auto;
       height: 100%;
       left: -85% !important;
+    }
+
+    .parallax-1-bottom-space {
+      display: initial;
     }
   }
 }
