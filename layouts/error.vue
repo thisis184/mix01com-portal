@@ -12,7 +12,7 @@
           <h1 v-else>
             {{ otherError }}
           </h1>
-          <v-divider style="margin-bottom: 15px" />
+          <br />
           <NuxtLink to="/">
             <FontAwesomeIcon icon="house" /> Home page
           </NuxtLink>
