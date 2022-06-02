@@ -62,7 +62,7 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: ['faSortDown'],
+      solid: ['faSortDown', 'faHouse'],
     },
   },
 

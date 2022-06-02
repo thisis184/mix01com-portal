@@ -1,12 +1,24 @@
 <template>
-  <v-app dark>
-    <h1 v-if="error.statusCode === 404">
-      {{ pageNotFound }}
-    </h1>
-    <h1 v-else>
-      {{ otherError }}
-    </h1>
-    <NuxtLink to="/"> Home page </NuxtLink>
+  <v-app>
+    <v-parallax
+      class="parallax-1 view-height-100"
+      :src="require('~/assets/images/splash_ink_bg_1.png')"
+    >
+      <v-row justify="center" align="center" class="text-center">
+        <v-col style="color: black">
+          <h1 v-if="error.statusCode === 404">
+            {{ pageNotFound }}
+          </h1>
+          <h1 v-else>
+            {{ otherError }}
+          </h1>
+          <v-divider style="margin-bottom: 15px" />
+          <NuxtLink to="/">
+            <FontAwesomeIcon icon="house" /> Home page
+          </NuxtLink>
+        </v-col>
+      </v-row>
+    </v-parallax>
   </v-app>
 </template>
 
